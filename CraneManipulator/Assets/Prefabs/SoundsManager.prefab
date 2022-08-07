@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2640666921724035380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2640666921724035382}
+  - component: {fileID: 2640666921724035383}
+  m_Layer: 0
+  m_Name: SoundsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2640666921724035382
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2640666921724035380}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2640666921724035383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2640666921724035380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8facc3e47f0b87448b7a277f070f7555, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultSounds:
+  - {fileID: 8300000, guid: 80c2b64ac1802c3488fea671c313445f, type: 3}
+  metalSounds:
+  - {fileID: 8300000, guid: 354bd9a6dac8f1d41a27777c3b7d3178, type: 3}
+  - {fileID: 8300000, guid: 2df76594b15b5f84d8a69eae282552c5, type: 3}
+  - {fileID: 8300000, guid: 4acd2642bb485d2438d2828da061652e, type: 3}
+  - {fileID: 8300000, guid: 4c085d95968b0d945be405f1403e543c, type: 3}
+  - {fileID: 8300000, guid: 1ef9e61b989f16a4fbf52898c049319d, type: 3}
+  - {fileID: 8300000, guid: 0ec1bc8f1f2993d41871c4f8747ca9c7, type: 3}
+  woodSounds:
+  - {fileID: 8300000, guid: 6a15d733f417c96408ce14e594327e8c, type: 3}
+  dirtSounds:
+  - {fileID: 8300000, guid: be392d7acc6c3114889857a9f577877f, type: 3}
+  glassSounds:
+  - {fileID: 8300000, guid: 0aa76eb38a066d24b8ed3f27368ffa6b, type: 3}
+  stoneSounds:
+  - {fileID: 8300000, guid: b2ddc590461f1b84ebb4866d162684dd, type: 3}
+  - {fileID: 8300000, guid: d2fad4bec1e10074fa91998b85d6a1d6, type: 3}
